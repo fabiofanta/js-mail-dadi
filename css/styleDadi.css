@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+      color: white;
+      font-weight: bold;
+  }
+
+  .container {
+      height: 100vh;
+      display: flex;
+  }
+
+  .card {
+      margin: auto;
+      width: 300px;
+      height: 200px;
+      background-color: black;
+  }
+
+  .box {
+      margin: auto;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+  }
+
+  [class*=random] {
+      border: 1px solid white;
+      border-radius: 5px;
+      padding: 5px;
+  }
+
+  #result {
+      text-align: center;
+      margin-top: 50px;
+      background-color: red;
+      text-transform: uppercase;
+  }
