@@ -9,7 +9,7 @@ for (var i = 0; i < email.length; i++) {
     var emailCheck = emailInput == email[i];
 }
 
-if (emailCheck === true) {
+if (emailCheck == true) {
     console.log("Email Confermata");
 } else {
     console.log("Email Invalida");
